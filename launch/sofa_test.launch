@@ -3,7 +3,9 @@
         name="robot_description"
         command="$(find xacro)/xacro '$(find realsense_gazebo_plugin)/urdf/rs200_simulation.xacro'"
     />
-    <include file="$(find seat_detect)/launch/sofa_test_world.launch">
+    <include file="$(find gazebo_ros)/launch/empty_world.launch">
+       <arg name="world_name" value="$(find realsense_gazebo_plugin)/worlds/sofa.world"/> 
+
     </include>
     <node
         name="spawn_model"
