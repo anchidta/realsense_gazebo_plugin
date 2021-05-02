@@ -1,4 +1,4 @@
-# Intel RealSense Gazebo ROS plugin and model
+# Intel RealSense Gazebo ROS plugin and model : forked from SyrianSpock/realsense_gazebo_plugin
 
 Simulattion of the Realsense R200 sensor in Gazebo.
 
